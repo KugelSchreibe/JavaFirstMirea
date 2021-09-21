@@ -7,7 +7,6 @@ public class BallTest {
         Scanner in = new Scanner(System.in);
         String name;
         double mass, price;
-
         System.out.print("Введите тип вашего мяча: ");
         name = in.nextLine();
         System.out.print("\nВведите массу вашего мяча: ");
