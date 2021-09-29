@@ -4,8 +4,14 @@ public class Cupboard extends Furniture {
     private int shelp;
     private String color;
 
+    public Cupboard() {
+        super(1000, "wood", 1, 1, 1);
+        this.color = "white";
+        this.shelp = 0;
+    }
+
     public Cupboard(double price, String material, double dimensionsLength, double dimensionsWidth,
-                    double dimensionsHeight, int shelp,String color) {
+                    double dimensionsHeight, int shelp, String color) {
         super(price, material, dimensionsLength, dimensionsWidth, dimensionsHeight);
         this.color = color;
         this.shelp = shelp;
