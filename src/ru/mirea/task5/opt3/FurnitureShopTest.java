@@ -14,7 +14,6 @@ public class FurnitureShopTest {
 
         while (count-- > 0) {
             FShop.pushBackCupboard();
-            count++;
         }
 
         System.out.print("Введите колиство столов в магазине: ");
@@ -22,7 +21,6 @@ public class FurnitureShopTest {
 
         while (count-- > 0) {
             FShop.pushBackTable();
-            count++;
         }
 
         System.out.println("\n" + FShop.info());
