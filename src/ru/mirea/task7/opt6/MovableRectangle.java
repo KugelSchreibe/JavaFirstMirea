@@ -41,9 +41,4 @@ public class MovableRectangle implements Movable {
         bottomRight.moveRIGHT();
 
     }
-    /*
-    public boolean equalsSpeed() {
-        if (topLeft.xSpeed == bottomRight.)
-    }
-     */
 }
