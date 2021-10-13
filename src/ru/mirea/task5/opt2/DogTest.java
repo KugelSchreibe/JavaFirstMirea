@@ -21,6 +21,7 @@ public class DogTest {
 
         Shepherd FirstDog = new Shepherd(name, age);
         System.out.println("\n" + FirstDog.info() + "\nЛай звучит примерно как: " + FirstDog.voice());
+        in.nextLine();
 
         System.out.print("\nВведите имя чихуауа: ");
         name = in.nextLine();
