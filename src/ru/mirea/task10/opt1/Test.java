@@ -50,7 +50,7 @@ public class Test {
 
         System.out.println("Введите натуральное число k: ");
         k = in.nextInt();
-        System.out.println("Введите число B: ");
+        System.out.println("Введите число d: ");
         d = in.nextInt();
 
         while (k < 1) {
@@ -70,8 +70,8 @@ public class Test {
             temp = 0;
             num = i;
             while (num != 0) {
-                temp += i % 10;
-                temp /= 10;
+                temp += num % 10;
+                num /= 10;
             }
 
             if (temp == d) {
@@ -103,26 +103,13 @@ public class Test {
         System.out.println("Сумма цифр числа " + N + " равна " + rec(N));
     };
 
-    public static void func6() {
-        Scanner in = new Scanner(System.in);
-        int n;
-
-        System.out.println("Введите число n: ");
-        n = in.nextInt();
-        while (n < 1) {
-            System.out.println("Некорректный ввод. Введите натуральное число n (n > 0): ");
-            n = in.nextInt();
-        }
-
-
-    };
 
     public static void main(String[] argv) {
         Scanner in = new Scanner(System.in);
         int n;
 
         while (true) {
-            System.out.println("\nВыберите номер задания (2 - 6) или 0 чтобы выйти: ");
+            System.out.println("\nВыберите номер задания (2 - 5) или 0 чтобы выйти: ");
             n = in.nextInt();
 
             if (n == 0) {
@@ -130,7 +117,7 @@ public class Test {
             }
 
             while (n < 2 && n > 6) {
-                System.out.println("Некорректный ввод. Выберите номер задания (2 - 6): ");
+                System.out.println("Некорректный ввод. Выберите номер задания (2 - 5): ");
                 n = in.nextInt();
             }
 
@@ -142,8 +129,6 @@ public class Test {
                 func4();
             } else if (n == 5) {
                 func5();
-            } else {
-                func6();
             }
         }
     }
