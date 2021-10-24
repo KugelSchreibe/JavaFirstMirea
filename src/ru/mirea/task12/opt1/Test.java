@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
         Student[] IDNumber = new Student[12];
 
-        System.out.println("Не отсортирванный массив:\n");
+        System.out.println("Неотсортирванный массив:\n");
 
         for (int i = 0; i < IDNumber.length; i++) {
             IDNumber[i] = new Student();
