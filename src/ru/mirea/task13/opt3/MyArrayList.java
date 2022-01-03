@@ -28,7 +28,7 @@ public class MyArrayList<E> implements SimpleAction<E> {
 
             return true;
         } else {
-            array[++size] = e;
+            array[size++] = e;
             return true;
         }
     }

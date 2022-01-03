@@ -1,0 +1,66 @@
+
+*** These modified files were found in JOE when it aborted on Thu Nov  4 14:59:53 2021
+*** JOE was aborted by UNIX signal 1
+
+*** Файл '(БезИмени)'
+/home/sergei/IdeaProjects/JavaFirstMirea/.git/COMMIT_EDITMSG
+
+*** Файл '/home/sergei/IdeaProjects/JavaFirstMirea/.git/COMMIT_EDITMSG'
+Merge https://github.com/sermakov/JavaFirstMirea
+
+# Conflicts:
+#	src/ru/mirea/task1/README.md
+#	src/ru/mirea/test/Main.java
+#
+# Похоже, что вы пытаетесь закоммитить слияние.
+# Если это ошибка, пожалуйста удалите файл
+#	.git/MERGE_HEAD
+# и попробуйте снова.
+
+
+# Пожалуйста, введите сообщение коммита для ваших изменений. Строки,
+# начинающиеся с «#» будут проигнорированы, а пустое сообщение
+# отменяет процесс коммита.
+#
+# На ветке master
+# Ваша ветка обновлена в соответствии с «origin/master».
+#
+# Все конфликты исправлены, но вы все еще в процессе слияния.
+#
+# Изменения, которые будут включены в коммит:
+	изменено:      info.txt
+	изменено:      src/ru/mirea/task1/README.md
+	изменено:      src/ru/mirea/task13/opt2/Test.java
+	изменено:      src/ru/mirea/task13/opt3/MyArrayList.java
+	изменено:      src/ru/mirea/task15/Test.java
+	новый файл:    src/ru/mirea/task16/README.md
+	новый файл:    src/ru/mirea/task17/README.md
+	новый файл:    src/ru/mirea/task17/examples/Package01/EnumDemo.java
+	новый файл:    src/ru/mirea/task17/examples/Package01/EnumDemo2.java
+	новый файл:    src/ru/mirea/task17/examples/Package02/EnumDemo3.java
+	новый файл:    src/ru/mirea/task17/examples/Package03/EnumDemo4.java
+	новый файл:    "src/ru/mirea/task17/examples/Package04/Ask\320\234e.java"
+	новый файл:    src/ru/mirea/task18/README.md
+	новый файл:    src/ru/mirea/task18/examples/ExampleException.java
+	новый файл:    src/ru/mirea/task18/examples/Exc0.java
+	новый файл:    src/ru/mirea/task18/examples/Exc2.java
+	новый файл:    src/ru/mirea/task18/examples/FinallyDemo.java
+	новый файл:    src/ru/mirea/task18/examples/HandleError.java
+	новый файл:    src/ru/mirea/task18/examples/MethNestedTry.java
+	новый файл:    src/ru/mirea/task18/examples/MultipleCatches.java
+	новый файл:    src/ru/mirea/task19/README.md
+	новый файл:    src/ru/mirea/task19/examples/NestedTry.java
+	новый файл:    src/ru/mirea/task19/examples/ReturnCatchFinally.java
+	новый файл:    src/ru/mirea/task19/examples/SuperSubCatch.java
+	новый файл:    src/ru/mirea/task19/examples/SuperSubCatch2.java
+	новый файл:    src/ru/mirea/task19/examples/ThrowDemo.java
+	новый файл:    src/ru/mirea/task19/examples/ThrowsDemo.java
+	новый файл:    src/ru/mirea/task19/examples/ThrowsFactorial.java
+	новый файл:    src/ru/mirea/task20/README.md
+	новый файл:    src/ru/mirea/task20/example/TimeZoneExample.java
+	новый файл:    src/ru/mirea/task20/example/TimeZoneList.java
+
+
+*** Файл '* Startup Log *'
+Обработка '/etc/joe/editorrc'...Обработка '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc

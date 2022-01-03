@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Test {
-    private static  File file = new File("info.txt");
+    private static final File file = new File("info.txt");
 
     private static void writeInfo() throws FileNotFoundException {
         PrintWriter pw = new PrintWriter(file);
@@ -50,9 +50,9 @@ public class Test {
 
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(System.in);
-        int input = 0;
+        int input;
 
-        while (input != 5) {
+        while (true) {
             System.out.println("""
                 Введите операцию:
                 1 - Записать в файл информацию
